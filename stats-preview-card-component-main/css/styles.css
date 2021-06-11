@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+body{
+    background-color:hsl(233, 47%, 7%);
+    color:white;
+    font-size:15px;
+    box-sizing:border-box;
+}
+.container{
+    width: 1000px;
+    height:446px;
+    background-color: hsl(244, 38%, 16%);
+    margin:auto;
+    display: flex;
+    margin-top: 10%;
+}
+.text{
+    color:hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size:28px;
+}
+span{
+    color:hsl(277, 64%, 61%);
+}
+.attribution {
+    margin-top:150px;
+}
+.heading{
+    display:inline-flex;
+    justify-content: center;
+    margin:auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.middle{
+    display:flex;
+    justify-content: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    color:hsla(0, 0%, 100%, 0.75)
+}
+.footer{
+    display:flex;
+    justify-content: center;
+}
